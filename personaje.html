@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Personaje</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <h1>Character Cloud</h1>
+</header>
+
+<h2 id="nombrePersonaje"></h2>
+
+<button id="renombrarPersonaje">
+    Renombrar Personaje
+</button>
+
+<div class="workspace">
+<div class="workspace">
+
+    <div class="panel-imagenes">
+
+        <h3>Imágenes de referencia</h3>
+
+        <input
+        type="file"
+        id="subirImagen"
+        accept="image/*"
+        multiple>
+
+        <div id="galeria"></div>
+
+    </div>
+
+    <div class="panel-notas">
+
+        <h3>Información del Personaje</h3>
+
+<label>Historia</label>
+<textarea id="historia" rows="5"></textarea>
+
+<label>Personalidad</label>
+<textarea id="personalidad" rows="5"></textarea>
+
+<label>Apariencia</label>
+<textarea id="apariencia" rows="5"></textarea>
+
+<label>Habilidades</label>
+<textarea id="habilidades" rows="5"></textarea>
+
+<label>Relaciones</label>
+<textarea id="relaciones" rows="5"></textarea>
+
+<label>Inventario</label>
+<textarea id="inventario" rows="5"></textarea>
+
+<label>Notas Extras</label>
+<textarea id="extras" rows="5"></textarea>
+
+    </div>
+
+</div>
+
+<br><br>
+
+<a href="index.html">
+Regresar al inicio
+</a>
+
+<script src="js/personaje.js"></script>
+
+</body>
+</html>
